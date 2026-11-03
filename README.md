@@ -42,6 +42,7 @@ npm run preview
 
 ## GitHub Pages
 
-Workflow `.github/workflows/deploy.yml` builds the project on pushes to `main` and publishes `dist` through GitHub Pages. For this repository (`rabochiy-zhurnal`), Vite uses the `/rabochiy-zhurnal/` base path only in the Pages workflow; local development and Vercel keep `/`.
+Workflow `.github/workflows/deploy.yml` builds the project on pushes to `main` and publishes `dist` through GitHub Pages. For this repository (`rabochiy-zhurnal2.0`), Vite uses the `/rabochiy-zhurnal2.0/` base path only in the Pages workflow; local development and Vercel keep `/`.
 
 To enable deployment once, open **Settings → Pages** in the repository and select **GitHub Actions** as the build and deployment source. Then push the workflow and source files to `main`. The deployment URL will appear in the workflow run and the Pages settings.
+
